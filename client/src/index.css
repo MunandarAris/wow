@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #E5E5E5;
+}
+
+/* landing Page */
+.container-landing-page
+{
+  background-color: #E5E5E5;
+  height: 100vh;
+  background-image: url("/src/assets/img/Vector\ 1.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-landing-page
+{
+  width: 70%;
+}
+.paragraf-landing-page
+{
+  font-size: 18px;
+  margin-top: -30px;
+  font-weight: 400;
+  line-height: 32,78px;
+  color:#000000;
+}
+.btn-signup
+{
+  background-color: #D60000;
+  border: none;
+  font-weight: 400;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+}
+.btn-signup:hover
+{
+  background-color: #ca0202;
+}
+.btn-signin
+{
+  background-color: rgba(184, 184, 184, 0.7);
+  border: none;
+  color: #000000;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.btn-signin:hover
+{
+  background-color: rgba(156, 154, 154, 0.7);
+  color: #000000;
+}
+
+/* Modal Sign in */
+.btn-signin-modal
+{
+  border: none;
+  background-color: #D60000;
+  border-radius: 5px;
+  width: 100%;
+}
+.btn-signin-modal:hover
+{
+  background-color: #ca0202;
+}
+.btn-close-modal
+{
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* Loading */
+.container-loading
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+/* Home */
+.container-home {
+  background-color: #E5E5E5;
+}
+.home-logo {
+  width: 60%;
+}
+.home-user-image {
+  width: 30%;
+}
+.container-home .link p 
+{
+  cursor: pointer;
+}
+.framer-image 
+{
+  width: 100%;
+}
+
+.cutom-btn:focus
+{
+  box-shadow: none;
+}
+
+.cutom-btn:after 
+{
+  content: none;
+}
+
+
+/* Add Book */
+.form-add-book:focus {
+  box-shadow: none;
+}
+
+
+.contact-active
+{
+  color:#D60000;
+}
+.chat-area::-webkit-scrollbar { 
+  width: 0.5rem;
+}
+.chat-area::-webkit-scrollbar-thumb { 
+  background-color: #D60000;
+  border-radius: 10px;
+}
+
+.inputMessage:focus {
+  box-shadow: none;
+}
